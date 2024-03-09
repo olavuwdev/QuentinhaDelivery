@@ -95,7 +95,7 @@ section{
     cursor: pointer;
 }
 .topo-site .icons div:hover{
-    color:white;
+    color:rgb(219, 214, 214);
 }
 #menu{
     display: none;
@@ -106,7 +106,7 @@ section{
     border-radius: .5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     position: absolute;
-    top: 15%;
+    top: 115%;
     right: -105%;
     padding: 2rem;
     z-index: 2;
@@ -136,11 +136,12 @@ section{
     color:red;
 }
 .topo-site .carrinho .box img{
-    height: 15rem;
+    height: 10rem;
+   
 }
 .topo-site .carrinho .box .content h3{
-    font-size:1.7rem;
-    padding-bottom: .5rem;
+    font-size:1.4rem;
+    padding-bottom: .2rem;
     color: #130f40;
 }
 .topo-site .carrinho .box .content span{
@@ -164,7 +165,7 @@ section{
 
 .topo-site .login-form{
     position: absolute;
-    top: 15%;
+    top: 115%;
     right: -105%;
     background: white;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -374,11 +375,11 @@ section{
 .loja .box-container .box{
     text-align: center;
     overflow: hidden;
-    padding: 0 2.5rem;
+    padding: 2rem 2.5rem;
     position: relative;
 }
 .loja .box-container .box img{
-    height: 29rem;
+    height: 19rem;
     transition: .4s linear;
 }
 .loja .box-container .box:hover img{
@@ -478,6 +479,7 @@ section{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 }
 .blogs .box-container .box img{
+    width: 100%;
     height: 25rem;
     border-radius: .5rem;
     object-fit: cover;
@@ -490,6 +492,46 @@ section{
     border-radius:  .5rem;
     position: relative;
     
+}
+
+/*RODAPE */
+
+.rodape{
+    background: var(--yellow_qd);
+    text-align: center;
+}
+
+.rodape .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 2rem;
+}
+.rodape .box-container .box h3{
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    padding: 1rem 0;
+}
+.rodape .box-container .box p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+.rodape .box-container .box .rede-sociais{
+    margin-top: 1rem;
+}
+.rodape .box-container .box .rede-sociais a{
+    border-radius: 10%;
+    color: black;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    border: .1rem solid black;
+}
+.rodape .box-container .box .rede-sociais a:hover{
+    color: var(--yellow_qd);
+    background: black;
 }
 
 /*Responsiva site */
