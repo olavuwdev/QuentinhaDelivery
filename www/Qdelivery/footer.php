@@ -19,7 +19,7 @@
             <!-- INICIO ITEM RODAPE SITE -->
         <div class="box">
             <h3>Faça seu pedido</h3>
-                <p>(84) 9 9666-3656</p>
+            <a class="link" title="Whastapp" href="https://api.whatsapp.com/send/?phone=5584996662653&text=Olá%2C+gostaria+de+fazer+um+pedido%21&type=phone_number&app_absent=0">(84) 9 9666-2653</a>
             <a class="link" href="mailto:quentinhadelivery@gmail.com" title="quentinhadelivery@gmail.com">quentinhadelivery@gmail.com</a>
 
             </div>
